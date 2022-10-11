@@ -34,3 +34,14 @@ int main(){
     printf("%d",fun(12));
     return 0;
 }
+
+return type two parameters:
+#include<stdio.h>
+int fun(int a,int b)
+{
+    return a+b;
+}
+int main(){
+    printf("%d",fun(12,23));
+    return 0;
+}
