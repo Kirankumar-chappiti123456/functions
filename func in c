@@ -10,3 +10,27 @@ int main()
  fun();
 }
 
+func passing parameters:
+
+#include<stdio.h>
+int fun(char name[])
+{
+    printf("%s\n",name);
+}
+int main()
+{
+    fun("kiran");
+    fun("kumar");
+    fun("yadav");
+}
+
+return type parameters:
+#include<stdio.h>
+int fun(int a)
+{
+    return 5+a;
+}
+int main(){
+    printf("%d",fun(12));
+    return 0;
+}
